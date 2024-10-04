@@ -19,12 +19,23 @@ img{
   
 
 }
-h2:hover{
-    background-color: coral;
+img:hover{
+    border-style: solid;
+    border-color: red;
 }
-button{
+
+
+.highlight{
+    background-color: black;
+    color: white;
+
+}
+.highlight:hover{
+    background-color: rgb(180, 231, 13);
+    
+}
+#btn{
     color:white;
-    background-color:red;
     margin: 5px auto;
     text-align: center;
     align-items: center;
@@ -32,6 +43,9 @@ button{
 
     
 
+}
+.button{
+    background-color: red;
 }
 button:hover{
     background-color: rgb(237, 92, 92);
